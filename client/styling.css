@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*
+Name : Aung Pyae Phyo
+Class : DIT/1B/09
+Admin No. : 2329581
+*/
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e0e0e0;
+}
+
+main {
+    min-height: 100vh;
+}
+
+nav, footer {
+    background-color:rgb(236, 251, 255);
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+button:hover {
+    transform:scale(1.1,1.1);
+}
+
+p#title {
+    display: inline-flex;
+    padding: 10px;
+    color: darkblue;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+li.active {
+    border-bottom: 5px solid darkblue;
+}
+
+#rateDiv {
+    display : grid;
+    row-gap: 20px;
+}
+
